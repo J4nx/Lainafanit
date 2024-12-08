@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="container">
+    <h2>Omat lainat</h2>
+    {% if lainat %}
+    <div class="table table-hover">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Kirjan nimi</th>
+                    <th>Lainaus päivämäärä</th>
+                    <th>Palautuspäivä</th>
+                    <th>Toiminnot</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for laina in lainat %}
+                <tr>
+                    <td><a href="{% url 'kirjasto:kirja' laina.kirja.id %}">{{ laina.kirja.nimi }}</a></td>
+                    <td>{{ laina.lainauspaiva }}</td>
+                    <td>{{ laina.palautuspaiva }}</td>
+                    <td>
+                        <form action="{% url 'kirjasto:return_book' laina.id %}" method="POST">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-primary">Palauta nyt</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p>Ei lainoja tällä hetkellä</p>
+    {% endif %}
+
+    <h2>Lainahistoria</h2>
+    <!-- Assume loan_history is passed to template -->
+    {% if loan_history %}
+    <div class="table table-hover">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Kirjan nimi</th>
+                    <th>Lainauspäivämäärä</th>
+                    <th>Palautuspäivä</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for history in loan_history %}
+                <tr>
+                    <td><a href="{% url 'kirjasto:kirja' history.kirja.id %}">{{ history.kirja.nimi }}</a></td>
+                    <td>{{ history.lainauspaiva }}</td>
+                    <td>{{ history.palautettu }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p>Ei lainahistoriaa saatavilla.</p>
+    {% endif %}
+</div>
+{% else %}
+<p>Omat lainat näkyvät vain kirjautuneille käyttäjille. Kirjaudu sisään selataksesi lainoja.</p>
+<p><a href="{% url 'login' %}">Kirjaudu sisään</a></p>
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,86 @@
+[{"model": "kirjasto.kirjailija", "pk": 1, "fields": {"etunimi": "John", "sukunimi": "Wayne"}}, 
+{"model": "kirjasto.kirjailija", "pk": 2, "fields": {"etunimi": "Bruce", "sukunimi": "Banner"}}, 
+{"model": "kirjasto.kirjailija", "pk": 3, "fields": {"etunimi": "John", "sukunimi": "Wick"}}, 
+{"model": "kirjasto.kirjailija", "pk": 4, "fields": {"etunimi": "Diana", "sukunimi": "Princes"}}, 
+{"model": "kirjasto.kirjailija", "pk": 5, "fields": {"etunimi": "Bob", "sukunimi": "Builder"}},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 6,
+    "fields": {
+        "etunimi": "Laura",
+        "sukunimi": "Jones"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 7,
+    "fields": {
+        "etunimi": "David",
+        "sukunimi": "Rodriguez"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 8,
+    "fields": {
+        "etunimi": "John",
+        "sukunimi": "Brown"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 9,
+    "fields": {
+        "etunimi": "Michael",
+        "sukunimi": "Davis"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 10,
+    "fields": {
+        "etunimi": "James",
+        "sukunimi": "Williams"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 11,
+    "fields": {
+        "etunimi": "Anna",
+        "sukunimi": "Smith"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 12,
+    "fields": {
+        "etunimi": "Maria",
+        "sukunimi": "Johnson"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 13,
+    "fields": {
+        "etunimi": "Robert",
+        "sukunimi": "Garcia"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 14,
+    "fields": {
+        "etunimi": "Alice",
+        "sukunimi": "Martinez"
+    }
+},
+{
+    "model": "kirjasto.kirjailija",
+    "pk": 15,
+    "fields": {
+        "etunimi": "Julia",
+        "sukunimi": "Miller"
+    }
+}
+]

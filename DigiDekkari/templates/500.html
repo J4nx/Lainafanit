@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+500 - Sisäinen palvelinvirhe
+{% endblock %}
+
+{% block content %}
+<div class="container text-center" style="margin-top: 50px;">
+    <h1>500 - Sisäinen palvelinvirhe</h1>
+    <p>Valitettavasti jotain meni pieleen. Yritämme korjata ongelman mahdollisimman pian.</p>
+    <a href="{% url 'home' %}" class="btn btn-primary">Palaa kotisivulle</a>
+</div>
+{% endblock %}

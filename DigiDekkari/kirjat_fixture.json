@@ -1,0 +1,305 @@
+[{"model": "kirjasto.kirja", "pk": 1, "fields": {"nimi": "Shadows of Tomorrow", "julkaisuvuosi": 2024, "kuvaus": "A thrilling journey through uncharted territories in a post-apocalyptic world.", "kansikuva": "", "kustantaja": "Fiction House", "kirjailija": [1]}}, 
+{"model": "kirjasto.kirja", "pk": 2, "fields": {"nimi": "The Last Symphony", "julkaisuvuosi": 2019, "kuvaus": "A musician's quest to compose a final masterpiece amid the chaos of a crumbling society.", "kansikuva": "", "kustantaja": "Fiction House", "kirjailija": [2]}}, 
+{"model": "kirjasto.kirja", "pk": 3, "fields": {"nimi": "Beyond the Horizon", "julkaisuvuosi": 2010, "kuvaus": "Explorers discover a new land that defies the laws of physics.", "kansikuva": "", "kustantaja": "Adventure Press", "kirjailija": [5]}}, 
+{"model": "kirjasto.kirja", "pk": 4, "fields": {"nimi": "Echoes of the Past", "julkaisuvuosi": 2018, "kuvaus": "A historian uncovers secrets that could change the understanding of human history.", "kansikuva": "", "kustantaja": "Adventure Press", "kirjailija": [1]}},
+{
+    "model": "kirjasto.kirja",
+    "pk": 5,
+    "fields": {
+        "nimi": "Whispers in the Wind",
+        "julkaisuvuosi": 1995,
+        "kuvaus": "A tale of love and loss in the backdrop of a post-apocalyptic world.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [3, 14]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 6,
+    "fields": {
+        "nimi": "Shadows of the Mind",
+        "julkaisuvuosi": 2005,
+        "kuvaus": "A psychological thriller that delves deep into the mind of a genius.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [1, 5, 15]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 7,
+    "fields": {
+        "nimi": "Tides of Change",
+        "julkaisuvuosi": 2022,
+        "kuvaus": "An adventure that spans the depths of the oceans to the heights of the skies.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [1, 12, 15]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 8,
+    "fields": {
+        "nimi": "Forgotten Realms",
+        "julkaisuvuosi": 1999,
+        "kuvaus": "A historian uncovers secrets that could change the understanding of human history.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [2, 8]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 9,
+    "fields": {
+        "nimi": "Silent Voices",
+        "julkaisuvuosi": 2005,
+        "kuvaus": "A series of mysterious events that redefine the nature of time.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [13]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 10,
+    "fields": {
+        "nimi": "Hidden Depths",
+        "julkaisuvuosi": 2010,
+        "kuvaus": "A detective story set in a futuristic city with a twist of fate.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [11]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 11,
+    "fields": {
+        "nimi": "Dreams of Tomorrow",
+        "julkaisuvuosi": 2016,
+        "kuvaus": "A fantasy epic that explores the realms beyond human imagination.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [6]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 12,
+    "fields": {
+        "nimi": "Legends of the Old",
+        "julkaisuvuosi": 1994,
+        "kuvaus": "A scientific exploration into the unknown forces of the universe.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [10]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 13,
+    "fields": {
+        "nimi": "Mysteries Unveiled",
+        "julkaisuvuosi": 2003,
+        "kuvaus": "A heartwarming saga of survival and resilience in a war-torn country.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [8]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 14,
+    "fields": {
+        "nimi": "Secrets of the Deep",
+        "julkaisuvuosi": 2011,
+        "kuvaus": "A chilling narrative of a haunted house and its ancient inhabitants.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [15]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 15,
+    "fields": {
+        "nimi": "Lost Horizons",
+        "julkaisuvuosi": 1998,
+        "kuvaus": "A gripping account of an expedition to uncharted territories.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [6]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 16,
+    "fields": {
+        "nimi": "Paths Untaken",
+        "julkaisuvuosi": 2007,
+        "kuvaus": "A political thriller that exposes the underbelly of a corrupt regime.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [5]
+}
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 17,
+    "fields": {
+        "nimi": "Ghosts of the Past",
+        "julkaisuvuosi": 2019,
+        "kuvaus": "A romantic tale set against the backdrop of historical events.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [1, 3, 11]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 18,
+    "fields": {
+        "nimi": "Fires of Rebellion",
+        "julkaisuvuosi": 2021,
+        "kuvaus": "A story of betrayal and redemption in the world of espionage.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [2, 14]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 19,
+    "fields": {
+        "nimi": "Mirrors of Time",
+        "julkaisuvuosi": 1996,
+        "kuvaus": "An exploration of parallel universes and alternate realities.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [4, 12]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 20,
+    "fields": {
+        "nimi": "Songs of the Lost",
+        "julkaisuvuosi": 2004,
+        "kuvaus": "A narrative exploring the complexities of relationships and trust.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [6, 10]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 21,
+    "fields": {
+        "nimi": "Cries of the Wild",
+        "julkaisuvuosi": 2015,
+        "kuvaus": "A saga of power and politics in the realm of dragons and knights.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [7, 13]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 22,
+    "fields": {
+        "nimi": "Beyond the Horizon",
+        "julkaisuvuosi": 2020,
+        "kuvaus": "A tale of a revolution that changed the course of a nation.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [8, 15]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 23,
+    "fields": {
+        "nimi": "Tales of Dusk",
+        "julkaisuvuosi": 1992,
+        "kuvaus": "A journey of self-discovery and enlightenment in a mystical land.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [1, 5, 9]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 24,
+    "fields": {
+        "nimi": "Whirlwinds of Fate",
+        "julkaisuvuosi": 2017,
+        "kuvaus": "A story of a scientist who challenges the laws of nature.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [2, 6, 10]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 25,
+    "fields": {
+        "nimi": "Echoes of Silence",
+        "julkaisuvuosi": 2011,
+        "kuvaus": "A tale of a lost civilization and its hidden treasures.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [3, 7, 11]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 26,
+    "fields": {
+        "nimi": "Realms of Shadow",
+        "julkaisuvuosi": 2008,
+        "kuvaus": "A narrative that intertwines the fates of strangers.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [4, 8, 12]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 27,
+    "fields": {
+        "nimi": "Lights of the Abyss",
+        "julkaisuvuosi": 2019,
+        "kuvaus": "A story of a young hero's quest to save his kingdom.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [5, 9, 13]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 28,
+    "fields": {
+        "nimi": "Threads of Destiny",
+        "julkaisuvuosi": 2021,
+        "kuvaus": "A deep dive into the conspiracies that govern the world.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [6, 10, 14]
+    }
+},
+{
+    "model": "kirjasto.kirja",
+    "pk": 29,
+    "fields": {
+        "nimi": "Echoes of the Past",
+        "julkaisuvuosi": 2023,
+        "kuvaus": "A historian uncovers secrets that could change the understanding of human history.",
+        "kansikuva": "",
+        "kustantaja": "Adventure Press",
+        "kirjailija": [15]
+    }
+}
+]

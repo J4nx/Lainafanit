@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+{% if user.is_authenticated %}
+    <h1>Tervetuloa DigiDekkariin, <b>{{ user }}</b>!</h1>
+    <p>Pääset selaamaan DigiDekkarin kirjastoa ja tarkastelemaan omia lainojasi yläpalkin linkeistä.</p>
+   
+{% else %}
+    <h1>Tervetuloa DigiDekkariin!</h1>
+    <p>Kirjaudu sisään selataksesi kirjastoa.</p>
+{% endif %}
+{% endblock %}

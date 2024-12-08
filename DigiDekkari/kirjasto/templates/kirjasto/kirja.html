@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <h2>Kirjan tiedot</h2>
+    <div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>Kirjan nimi</th>
+            <td>{{ object.nimi }}</td>
+        </tr>
+        <tr>
+            <th>Kirjailija</th>
+            <td>{{ object.kirjailija.all|join:", " }}</td>
+        </tr>
+        <tr>
+            <th>Julkaisuvuosi</th>
+            <td> {{ object.julkaisuvuosi }} </td>
+        </tr>
+        <tr>
+            <th>Kuvaus</th>
+            <td> {{ object.kuvaus }} </td>
+        </tr>
+        <tr>
+            <th>Kustantaja</th>
+            <td> {{ object.kustantaja }} </td>
+        </tr>
+    </table>
+    </div>
+    {% if not laina %}
+    <form action="{% url 'kirjasto:lainaus' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="kirja_id" value="{{ kirja.pk }}">
+        <button type="submit" class="btn btn-primary">Lainaa</button>
+    </form>
+    {% else %}
+        <p>Kirja on lainassa. Palautuspäivä: {{ laina.palautuspaiva }}.</p>
+    {% endif %}
+    
+{% else %}
+    <p>Kirjan tiedot näkyvät vain kirjautuneille käyttäjille. Kirjaudu sisään nähdäksesi lisää tietoja.</p>
+    <p><a href="{% url 'login' %}">Kirjaudu sisään</a></p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+404 - Sivua ei löydy
+{% endblock %}
+
+{% block content %}
+<div class="container text-center" style="margin-top: 50px;">
+    <h1>404 - Sivua ei löydy</h1>
+    <p>Valitettavasti pyytämäänne sivua ei löydetty.</p>
+    <a href="{% url 'home' %}" class="btn btn-primary">Palaa kotisivulle</a>
+</div>
+{% endblock %}
